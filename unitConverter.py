@@ -12,8 +12,8 @@ if numChose/2 ==1:
     print('You have',kg*2.20462, 'pounds')
 if numChose/3 ==1:
     liters = float(input('Enter lites: '))
-    print('You have',liters*0.621371, 'gallons')
+    print('You have',liters*0.219969, 'gallons')
 if numChose/4 ==1:
-    celsius = float(input('Enter a temp in celsius': '))
-    print('You have',celsius*0.621371, 'fahrenheit')
+    celsius = float(input('Enter a temp in celsius: '))
+    print('You have',celsius*1.8+32, 'fahrenheit')
 
