@@ -9,7 +9,7 @@ if numChose/1 ==1:
     print('You have',Km*0.621371, 'miles')
 if numChose/2 ==1:
     Kg = float(input('Enter Kg: '))
-    print('You have',kg*2.20462, 'pounds')
+    print('You have',Kg*2.20462, 'pounds')
 if numChose/3 ==1:
     liters = float(input('Enter lites: '))
     print('You have',liters*0.219969, 'gallons')
