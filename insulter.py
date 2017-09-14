@@ -14,4 +14,4 @@ if num == 3:
 if num == 4:
     print(name, "You're so dumb that you will starve to death in a super market")
 if num == 5:
-    print(name, "You have no friends")
+    print(name, "I hate you so much I'm not even going to make an insult")
