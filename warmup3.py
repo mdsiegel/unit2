@@ -11,6 +11,6 @@ elif num%2 == 0:
 elif num%3 == 0:
     print('Divisible by 3')
 else :
-    print('Divisible by neither
+    print('Divisible by neither')
 
 
