@@ -4,7 +4,7 @@
 
 from ggame import*
 from random import randint
-randnum = randint(1,1)
+randnum = randint(1,4)
 if randnum ==1:
     red = Color(0xff0000, 1)
     line = LineStyle(3,red)
@@ -22,5 +22,7 @@ elif randnum ==4:
     line = LineStyle(3,blue)
     rectange = RectangleAsset(100,100,line,blue)
 
-
+Sprite(rectange)
+myApp = App()
+myApp.run()
 
