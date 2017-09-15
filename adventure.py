@@ -18,7 +18,7 @@ if input('yes or no') == 'yes':
             print('The zombie attacks you and eats you')
 else:
     print('You slowly approach him. You begin to relise that he is a zombie. Do you attack him or try to reason with it.')
-    if input('yes or no') == 'yes':
+    if input('reason or attack') == 'reason':
         print('You stupid idiot. Zombies cannot talk. HE EATS YOU')
     else:
         print('There is a knife on the ground. Do you try to stab him in the head or heart?')
