@@ -8,4 +8,9 @@ if input('yes or no') == 'yes':
     if input('run or talk') == 'run':
         print('He comes up behind you and eats your face off. THE END')
     else:
-        print('
+        print('You go up to talk with him. It turns out though that he is a zombie. There is a rock next to you. Do you throw it?')
+        if input('yes or no')=='yes':
+            if input('Do you through it at his head or body') == 'head':
+                print('You kill the zombie. YAY')
+                
+            
