@@ -14,11 +14,13 @@ elif num1<num2:
 
 if num1%3==0 and num2%3==0:
     print('They are both divisible by 3')
-elif num1%3==0 
+elif num1%3==0:
     print('The first number is divisible by 3')
-elif num2%3==0 
+elif num2%3==0:
     print('The second number is divisible by 3')
 
 userProduct = int(input('Enter the product of the two numbers: '))
 if userProduct == num1 * num2:
-    print('Correct!'
+    print('Correct!')
+else:
+    print('Incorrect')
