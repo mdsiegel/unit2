@@ -18,6 +18,8 @@ elif num1%3==0:
     print('The first number is divisible by 3')
 elif num2%3==0:
     print('The second number is divisible by 3')
+else:
+    print('Neither number is divisible by 3')
 
 userProduct = int(input('Enter the product of the two numbers: '))
 if userProduct == num1 * num2:
